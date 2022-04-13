@@ -10,3 +10,47 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background: darkgrey;
+}
+
+.lightcable{
+    background-color: black;
+    width: 20px;
+    height: 100px;
+    padding: 20px;
+    margin-left: 49%;
+}
+
+
+.box {
+	height: 300px;
+	width: 100px;
+    border-radius: 20px;
+	border: 1px solid black;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	background-color: black;
+}
+
+.light {
+    height: 33%;
+}
+   
+.rounded-circle{
+    height: 100%;
+    margin: auto;
+}
+.glow {
+    box-shadow: 0px 0px 40px 20px red;
+}
+     
+.glower {
+    box-shadow: 0px 0px 40px 20px yellow;
+}
+
+.glowerest {
+    box-shadow: 0px 0px 40px 20px green;
+}
+
