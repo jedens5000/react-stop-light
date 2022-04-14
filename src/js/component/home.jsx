@@ -17,25 +17,25 @@ const Home = () => {
 					{color === "yellow" ||
 					color === "green" ||
 					color === "off" ? (
-						<div className={off}></div>
+						<div className={red}></div>
 					) : (
-						<div className={`glow ${red}`}></div>
+						<div className={`glowR ${red}`}></div>
 					)}
 				</div>
 				<div className="light" onClick={() => setColor("yellow")}>
 					{color === "red" || color === "green" || color === "off" ? (
-						<div className={off}></div>
+						<div className={yellow}></div>
 					) : (
-						<div className={`glow ${yellow}`}></div>
+						<div className={`glowY ${yellow}`}></div>
 					)}
 				</div>
 				<div className="light" onClick={() => setColor("green")}>
 					{color === "red" ||
 					color === "yellow" ||
 					color === "off" ? (
-						<div className={off}></div>
+						<div className={green}></div>
 					) : (
-						<div className={`glow ${green}`}></div>
+						<div className={`glowG ${green}`}></div>
 					)}
 				</div>
 			</div>
